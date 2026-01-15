@@ -1,6 +1,6 @@
 # KTG - Context Extension Protocol v7.0
 
-**Context Extension Protocol** — Production-grade context compression for cross-model handoff.
+**Context Extension Protocol** — 18-month practiced context compression for cross-model handoff.
 
 > *"What must be preserved for a fresh model instance to continue this work?"*
 
