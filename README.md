@@ -1,4 +1,4 @@
-# KTG-CEP v7.0
+# ktg - Context Extension Protocol v7.0
 
 **Context Extension Protocol** — Production-grade context compression for cross-model handoff.
 
