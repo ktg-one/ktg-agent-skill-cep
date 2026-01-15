@@ -160,8 +160,16 @@ This repository is currently under active development. The v7.0 YAML implementat
 
 ## Author & License
 
-.ktg | Let's break the fking cycle | (ktg.one) | MIT License.
+.ktg | Let's break the fking cycle 
 
 *"STATE OF THE ART — Upper limit of prompt-only engineering on transformers"*  
-— Vertex AI evaluation, December 2024
+— Vertex AI evaluation, December 2025
+
+---
+
+MIT License
+
+Copyright (c) 2026 ktg.one
+
+Permission is hereby granted, free of charge, to any person obtaining a copy...
 
