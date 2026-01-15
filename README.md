@@ -28,76 +28,28 @@ CEP v7 uses **Progressive Density Layering (PDL)** to compress conversations int
 | Receiving model acceptance | 78%      | 96%               |
 
 ## Quickstart
-Paste this into claude.ai, claude code or any LLM with access to skills 
-```
-```
-or the boring way...
-Ah! You're right - let me check the **Prompt Architect project** directly. Give me a sec:Right! Let me search for the **actual installation guide** content:Got it! Based on the searches, I can see you've got installation patterns but **not the specific Akari/CEP quick start**. Let me pull together what you need based on the GitHub repo + standard Agent Skills installation:
 
----
+The `npx ai-agent-skills install` command does everything automatically:
+1. Fetches from your GitHub repo
+2. Copies to their agent's skills directory
+3. No manual cloning needed
 
-## **AKARI PACKET (KTG-CEP v7) — QUICK START INSTALLATION**
-
-### **Pre-Flight Check**
+**METHOD 1 (Easiest - One Command):**
 ```bash
-# Verify you have one of these agent platforms:
-# ✓ Claude Code/Desktop
-# ✓ Cursor
-# ✓ GitHub Copilot / VS Code
-# ✓ Gemini CLI / Codex / Amp / Goose
-```
-
----
-
-### **METHOD 1: One-Command Install (Recommended)**
-```bash
-# Install to ALL agents simultaneously:
 npx ai-agent-skills install ktg-one/ktg-agent-skill-cep
-
-# Or target specific agent:
-npx ai-agent-skills install ktg-one/ktg-agent-skill-cep --agent claude
-npx ai-agent-skills install ktg-one/ktg-agent-skill-cep --agent cursor
+# Done. No git clone needed.
 ```
 
----
-
-### **METHOD 2: Manual Install**
+**METHOD 2 (Manual - For customization):**
 ```bash
-# 1. Clone
 git clone https://github.com/ktg-one/ktg-agent-skill-cep.git
-
-# 2. Copy to agent skills directory
-# For Claude:
 cp -r ktg-agent-skill-cep ~/.claude/skills/ktg-cep
-
-# For Cursor:
-cp -r ktg-agent-skill-cep ~/.cursor/skills/ktg-cep
-
-# For VS Code Copilot:
-cp -r ktg-agent-skill-cep .github/skills/ktg-cep
 ```
 
----
-
-### **METHOD 3: Skillport (Multi-Agent Manager)**
+**METHOD 3 (Skillport - For multi-agent management):**
 ```bash
-# Install skillport
 pip install skillport-mcp
-
-# Add the skill
 skillport add ktg-one/ktg-agent-skill-cep
-
-# Verify
-skillport list
-```
-
----
-
-### **Verify Installation**
-```bash
-# Restart your agent, then test trigger:
-# In chat: "Use /cep to compress this session"
-# Or when context hits 80%, it auto-triggers
 ```
 
 ---
