@@ -152,6 +152,7 @@ This repository is currently under active development. The v7.0 YAML implementat
 - [x] Finalize PDL (Progressive Density Layering) v7 logic
 - [x] Implement Anti-Injection trust signaling
 - [x] Formal arViX submission. Waiting on endorsement.
+- [ ] Next: Implement MAGMA-style dual-stream memory (Asynchronous Consolidation).
 - [ ] Integrate with Raycast Extension
 - [ ] Implement Buffer Valet and create a literal Buffer of Thought.
 
