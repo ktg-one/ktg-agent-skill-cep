@@ -1,5 +1,6 @@
 # KTG - Context Extension Protocol v7.0
-![CEP](https://github.com/user-attachments/assets/545872cd-c6c0-4ef2-9865-f15bc5b2e207)
+![CONTEXT](https://github.com/user-attachments/assets/3ca9f552-e4ca-4487-95f2-c979b9b51356)
+
 
 **Context Extension Protocol** — A temporary 'bandage' for the AI memory problem. Optimized context compression for cross-model handoff.
 
