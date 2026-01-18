@@ -226,9 +226,13 @@ Please keep changes focused and well‑documented.
 ---
 
 ## Research Papers
-** Pending Endorsement **
 
+<i>Pending</i>
 - [Papers directory](https://github.com/ktg-one/context-extension-papers.git))
+
+Endorsements Welcome
+Email
+X/Twitter
 
 ---
 
